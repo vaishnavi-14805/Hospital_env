@@ -1,0 +1,14 @@
+name: hospital-env
+version: 1.0
+
+entrypoint: inference.py
+
+tasks:
+  - name: easy
+    difficulty: easy
+
+  - name: medium
+    difficulty: medium
+
+  - name: hard
+    difficulty: hard
